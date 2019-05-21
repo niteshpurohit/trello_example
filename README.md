@@ -1,3 +1,10 @@
+# Screenshots
+
+<p align="center">
+  <img src="images/ex1.png" width="350" title="Example 1">
+  <img src="images/ex2.png" width="350" title="Example 1">
+</p>
+
 # Cards
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
