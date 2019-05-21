@@ -1,0 +1,8 @@
+<div class="title">
+  {{list_item.title}}
+</div>
+
+<div class="cards" cdkDropList (cdkDropListDropped)="drop($event)" [cdkDropListData]="list_item.cards">
+  <div cdkDrag class='card' *ngFor="let card of list_item.cards">{{card.title}}</div>
+  <button (click)="newCard()">New Card</button>
+</div>

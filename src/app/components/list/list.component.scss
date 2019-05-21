@@ -1,0 +1,33 @@
+:host {
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px #998899;
+  max-height: 100%;
+}
+.title {
+  display: grid;
+
+  min-width: 100%;
+  align-content: center;
+  justify-content: center;
+  min-height: 50px;
+  color: #998899;
+}
+.cards {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-auto-columns: 100%;
+  grid-auto-rows: 100px;
+  grid-auto-flow: row;
+  div {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: solid 1px #474447;
+    max-height: 100%;
+  }
+  button {
+    max-height: 50px;
+    grid-template-rows: 50px;
+  }
+}
